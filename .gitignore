@@ -3,3 +3,5 @@
 */*/*-hvw
 
 im2smiles/results
+
+data/synthetic_data/size_tests/collect_data.py

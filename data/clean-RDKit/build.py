@@ -42,12 +42,9 @@ def smiles_to_rdkit(s, i, img_dir):
 if __name__ == "__main__":
     
     # RDKit settings
-    x = (0, 0, 0)
-    elemD = {0: x, 1: x, 7: x, 8: x, 9: x, 15: x, 16: x, 17: x, 35: x, 53: x}
-    Draw.DrawingOptions.elemDict = elemD
     Draw.DrawingOptions.bondLineWidth = 3
     
-    for size in ["10K", "50K", "100K", "500K"]:
+    for size in ["10K", "50K", "100K", "200K", "500K"]:
         print "Building RDKit images for {} SMILES dataset".format(size)
         for d in ["train", "val", "test"]:
             print " > Writing {} set to {}/{}_images".format(d,size,d)
