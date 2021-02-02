@@ -4,4 +4,11 @@
 
 im2smiles/results
 
-data/synthetic_data/size_tests/collect_data.py
+data/*/collect_data.py
+data/*/*/collect_data.py
+data/synthetic_data/backgrounds
+
+*/*.pyc
+*/*/*.pyc
+*/*/*/*.pyc
+*/*/*/*/*.pyc
