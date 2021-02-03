@@ -11,6 +11,7 @@
  - 200K:  200 000 image dataset
  - 500K:  500 000 image dataset
 
-### Scripts:
- - build.py:  Generates dataset of RDKit images from SMILES dataset
+### Scripts:  
+Generate dataset of RDKit images from SMILES dataset:  
+   `$ python build.py`
 
