@@ -1,19 +1,16 @@
-### Proof-of-Concept Datasets ###
+# Proof-of-Concept Datasets
 
-     *Figure 2*
+**Figure 2**
 
  - Clean RDKit images
 
-Datasets:
+### Datasets:
  - 10K:   10 000 image dataset
  - 50K:   50 000 image dataset
  - 100K:  100 000 image dataset
  - 200K:  200 000 image dataset
  - 500K:  500 000 image dataset
 
-Scripts:
+### Scripts:
  - build.py:  Generates dataset of RDKit images from SMILES dataset
 
-Requirements:
- - RDKit: $ conda install rdkit -c rdkit
- - svglib: $ pip install svglib 

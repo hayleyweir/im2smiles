@@ -12,3 +12,4 @@ scikit-image<0.15
 pillow
 logging
 six
+svglib 

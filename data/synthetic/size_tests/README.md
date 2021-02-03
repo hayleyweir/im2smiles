@@ -1,19 +1,15 @@
-### Proof-of-Concept Datasets ###
+# Synthetic data sizes datasets
 
-     *Figure 7a*
+**Figure 7a**
 
  - Synthetic dataset size comparison
 
-Datasets:
+###Datasets:
  - 50K:   50 000 image dataset
  - 100K:  100 000 image dataset
  - 200K:  200 000 image dataset
  - 500K:  500 000 image dataset
 
-Scripts:
+###Scripts:
  - build.py:  Generates synthetic dataset from SMILES dataset
 
-Requirements:
- - RDKit: $ conda install rdkit -c rdkit
- - svglib: $ pip install svglib
- - scikit-learn: $ conda install scikit-learn
