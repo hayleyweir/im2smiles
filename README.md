@@ -1,6 +1,6 @@
 # Hand Drawn Hydrocarbon Recognition
 
-This repo contains the code and data needed to generate all the data in 
+This repo contains the code and data needed to generate all the data for the paper
 
   "Recognizing Hand-drawn Hydrocarbon Structures with Neural Networks:
   A Practical Case Study of Deep Learning and Synthetic Data Generation in a Chemistry Context"
