@@ -6,9 +6,13 @@ im2smiles/results
 
 data/*/collect_data.py
 data/*/*/collect_data.py
-data/synthetic_data/backgrounds
+data/hand-drawn/hand-drawn-full
+data/hand-drawn/hand-drawn-training/training-sets/collect_HDforms.py
+data/synthetic/backgrounds/
 
 */*.pyc
 */*/*.pyc
 */*/*/*.pyc
 */*/*/*/*.pyc
+*/*/*/*/*/*.pyc
+
