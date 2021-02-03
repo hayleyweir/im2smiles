@@ -5,5 +5,6 @@
  - 413 images of photographed hand-drawn hydrocarbons
 
 ###Scripts:
- - build.py:  Copies images from ../hand-drawn-full/ to build dataset
+Copies images from ../hand-drawn-full/ to build dataset
+ `$ python build.py`
 

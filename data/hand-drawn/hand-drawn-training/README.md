@@ -6,7 +6,8 @@
  - 200 images of photographed hand-drawn hydrocarbons for validation set
 
 ###Scripts:
- - build.py:  Copies images from ../hand-drawn-full/ to build datasets
+Copies images from ../hand-drawn-full/ to build datasets:
+ `$ python build.py`
 
 ### Training datasets:
 Varying ratios of synthetic:hand-drawn data 
