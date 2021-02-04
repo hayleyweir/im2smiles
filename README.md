@@ -24,8 +24,7 @@ THe Im2Smiles code is modified from the [Im2Latex network](https://github.com/gu
 3. Clone **hand-drawn-hydrocarbon-recognition repo**  
   `$ git clone https://github.com/hayleyweir/hand-drawn-hydrocarbon-recognition.git`  
 
-4. In the im2smiles directory install requirements  
-  `$ cd im2smiles`  
+4. Install requirements  
   `$ make install`  
 
 
