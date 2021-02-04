@@ -8,7 +8,7 @@ This repo contains the code and data needed to generate all the data for the pap
 
 The Im2Smiles neural network and code to build the datasets for training are included.
 
-THe Im2Smiles code is modified from the [Im2Latex network](https://github.com/guillaumegenthial/im2latex) by Guillaume Genthial. 
+The Im2Smiles code is modified from the [Im2Latex network](https://github.com/guillaumegenthial/im2latex) by Guillaume Genthial. 
 
 
 ## Instalation

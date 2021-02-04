@@ -1,4 +1,4 @@
-## Image to SMILES neural network code
+## Image-to-SMILES neural network code
 
 ### Files/Dirs:
 - `model/`:       code for the neural network model  
@@ -17,3 +17,5 @@ To train network run:
 To evaluate netowork run:
   `$ make eval-<run-name>`
 
+### Reference
+The Im2Smiles code is modified from the [Im2Latex network](https://github.com/guillaumegenthial/im2latex) by Guillaume Genthial. 
