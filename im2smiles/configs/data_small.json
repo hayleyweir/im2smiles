@@ -1,5 +1,5 @@
 {
-    "export_name": "data_small.json",
+    "export_name": "data.json",
 
     "dir_images_train": "data_small/train_images/", 
     "dir_images_val": "data_small/val_images/", 

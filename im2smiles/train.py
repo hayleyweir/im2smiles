@@ -55,11 +55,16 @@ def main(data, vocab, training, model, output):
             lr_warm=config.lr_warm,
             lr_min=config.lr_min)
 
-    # Build model and train
+    # Build model 
     model = Img2SeqModel(config, dir_output, vocab)
     model.build_train(config)
+    
+    # Restart weights
 #    model.restore_session(dir_output + "model.weights/")
+    
+    # Train model
     model.train(config, train_set, val_set, lr_schedule)
+
 
 
 if __name__ == "__main__":

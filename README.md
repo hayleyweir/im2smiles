@@ -76,23 +76,23 @@ To check the environment is installed correctly:
 ### Training on synthetic and hand-drawn data  
 
 **Figure 2**:  
-  `$ make train-rdkit-10K`  
-  `$ make train-rdkit-50K`  
-  `$ make train-rdkit-100K`  
-  `$ make train-rdkit-200K`  
-  `$ make train-rdkit-500K`  
+  `$ make train-clean-rdkit-10K`  
+  `$ make train-clean-rdkit-50K`  
+  `$ make train-clean-rdkit-100K`  
+  `$ make train-clean-rdkit-200K`  
+  `$ make train-clean-rdkit-500K`  
 
 **Figure 7a**:  
-  `$ make train-rdkitp`  
-  `$ make train-rdkitp-aug`  
-  `$ make train-rdkitp-aug-bkg`  
-  `$ make train-rdkitp-aug-bkg-deg`  
+  `$ make train-SD-stage-rdkitp`  
+  `$ make train-rd-stage-rdkitp-aug`  
+  `$ make train-rd-stage-rdkitp-aug-bkg`  
+  `$ make train-rd-stage-rdkitp-aug-bkg-deg`  
 
 **Figure 7b**:  
-  `$ make train-SD-50K`  
-  `$ make train-SD-100K`  
-  `$ make train-SD-200K`  
-  `$ make train-SD-500K`  
+  `$ make train-SD-sizes-50K`  
+  `$ make train-SD-sizes-100K`  
+  `$ make train-SD-sizes-200K`  
+  `$ make train-SD-sizes-500K`  
 
 **Figure 8a**:  
   `$ make train-HDval-50K`  
