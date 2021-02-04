@@ -3,6 +3,7 @@
 */*/*-hvw
 
 im2smiles/results
+im2latex/make.py
 
 data/*/collect_data.py
 data/*/*/collect_data.py
