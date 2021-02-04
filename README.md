@@ -26,6 +26,10 @@ THe Im2Smiles code is modified from the [Im2Latex network](https://github.com/gu
 
 4. Install requirements  
   `$ make install`  
+ 
+5. Check environment is installed correctly:  
+  `$ cd im2lsmiles`  
+  `$ make train-small`  
 
 
 ## Building Datasets  
@@ -69,7 +73,10 @@ Hand-drawn test set: `data/hand-drawn/test-set/`
 
 ### Getting started  
 
-To check the environment is installed correctly:  
+Move to the im2smiles directory:
+  `$ cd im2smiles`
+
+If you haven't already, check the environment is installed correctly by training on the small dataset:  
   `$ make train-small`  
 
 ### Training on synthetic and hand-drawn data  
